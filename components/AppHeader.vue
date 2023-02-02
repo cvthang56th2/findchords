@@ -1,0 +1,36 @@
+<template>
+  <header class="py-1 border-b-2">
+    <div class="container">
+      <div class="flex flex-wrap items-center">
+        <div class="w-full md:w-auto">
+          <nuxt-link to="/">
+            <img src="https://via.placeholder.com/140x70" alt="logo" class="mx-auto md:mx-0 mb-3 md:mb-0">
+          </nuxt-link>
+        </div>
+    
+        <div class="w-full md:w-auto lg:ml-4 flex justify-center md:justify-end flex-1 flex-wrap">
+          <el-button type="primary" class="mb-2 lg:mb-0">Đăng bài mới</el-button>
+          <el-button type="primary" class="mb-2 lg:mb-0">Đăng nhập</el-button>
+          <el-button type="primary">Đăng ký</el-button>
+        </div>
+      </div>
+      <ul class="flex flex-wrap items-center list-none mt-2">
+        <li class="mr-2 last:mr-0 mb-0">
+          <nuxt-link to="/songs">Bài hát</nuxt-link>
+        </li>
+        <li class="mr-2 last:mr-0 mb-0">
+          <nuxt-link to="/chord">Hợp âm</nuxt-link>
+        </li>
+        <li class="mr-2 last:mr-0 mb-0">
+          <nuxt-link to="/rythm">Điệu bài hát</nuxt-link>
+        </li>
+        <li class="mr-2 last:mr-0 mb-0">
+          <nuxt-link to="/genre">Thể loại</nuxt-link>
+        </li>
+        <li class="mr-2 last:mr-0 mb-0">
+          <nuxt-link to="/member">Thành viên</nuxt-link>
+        </li>
+      </ul>
+    </div>
+  </header>
+</template>

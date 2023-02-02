@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure {
+  @apply mb-2 md:mb-3 mt-0;
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+ol,
+ul {
+  @apply block pl-0;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+ul {
+  @apply list-disc;
+}
+
+html,
+body {
+  @apply overflow-x-hidden bg-white;
+}
+h1,
+.h1 {
+  @apply text-h1 font-bold md:text-h1-md;
+}
+
+h2,
+.h2 {
+  @apply text-h2 font-bold md:text-h2-md;
+}
+
+h3,
+.h3 {
+  @apply text-h3 font-semibold md:text-h3-md;
+}
+
+h4,
+.h4 {
+  @apply text-h4 font-semibold md:text-h4-md;
+}
+
+h5,
+.h5 {
+  @apply text-h5 md:text-h5-md;
+}
+
+h6,
+.h6 {
+  @apply text-h6 md:text-h6-md;
+}
+
+h5,
+.h5 {
+  @apply text-h5 font-bold;
+}
+
+h6,
+.h6 {
+  @apply text-h5 font-medium;
+}
+
+.text-link {
+  @apply text-blue-500 hover:underline;
+}
