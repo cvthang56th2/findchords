@@ -10,8 +10,8 @@
     
         <div class="w-full md:w-auto lg:ml-4 flex justify-center md:justify-end flex-1 flex-wrap">
           <nuxt-link to="/song/create" class="mb-2 lg:mb-0 mr-2"><el-button type="primary">Đăng bài hát</el-button></nuxt-link>
-          <el-button type="primary" class="mb-2 lg:mb-0">Đăng nhập</el-button>
-          <el-button type="primary">Đăng ký</el-button>
+          <el-button type="primary" class="mb-2 lg:mb-0 mr-2">Đăng nhập</el-button>
+          <el-button type="primary" class="!ml-0">Đăng ký</el-button>
         </div>
       </div>
       <ul class="flex flex-wrap items-center list-none mt-2">
