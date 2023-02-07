@@ -8,6 +8,7 @@
   </div>
 </template>
 <style>
-main {
+.swal2-container {
+  z-index: 9999;
 }
 </style>
