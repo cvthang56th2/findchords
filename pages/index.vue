@@ -29,8 +29,8 @@ const rythms = ref([
             </div>
           </div>
         </div>
-        <div class="text-center">
-          <el-button class="mt-3" type="primary">Đăng bài hát</el-button>
+        <div class="text-center mt-3">
+          <nuxt-link to="/song/create"><el-button type="primary">Đăng bài hát</el-button></nuxt-link>
         </div>
         <div class="mt-4">
           <h6 class="text-center uppercase">Điệu bài hát</h6>

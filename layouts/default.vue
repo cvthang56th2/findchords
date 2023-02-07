@@ -8,4 +8,6 @@
   </div>
 </template>
 <style>
+main {
+}
 </style>
