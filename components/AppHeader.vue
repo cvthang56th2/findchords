@@ -16,7 +16,7 @@
       </div>
       <ul class="flex flex-wrap items-center list-none mt-2">
         <li class="mr-2 last:mr-0 mb-0">
-          <nuxt-link to="/songs">Bài hát</nuxt-link>
+          <nuxt-link to="/">Bài hát</nuxt-link>
         </li>
         <li class="mr-2 last:mr-0 mb-0">
           <nuxt-link to="/chord">Hợp âm</nuxt-link>
